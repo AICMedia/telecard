@@ -1,6 +1,10 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@include font-face('MyriadPro', 'MyriadProRegular', 'MyriadPro', 'serif');
+@include font-face('MyriadProLight', 'MyriadProLight', 'MyriadPro', 'serif');
+@include font-face('MyriadProSemibold', 'MyriadProSemiBold', 'MyriadPro', 'serif');
+@include font-face('MyriadProBold', 'MyriadProBold', 'MyriadPro', 'serif');
 
 /*
 	Helios by HTML5 UP

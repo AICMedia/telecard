@@ -85,15 +85,7 @@
 		}).click(function () {
 			$('#nav ul li').removeClass('active');	
 			$(this).addClass('active');
-			activeBlock();
-			var screenwidth = $(document).width();
-			if (screenwidth < 736) {
-				$( "#nav" ).slideToggle( "slow", function() {
-					$( ".cross" ).hide();
-					$( ".hamburger" ).show();
-				});
-			}
-			
+			activeBlock();	
 		});
 		$('#nav ul').mouseleave(function () {
 			default_left = Math.round($('#nav ul li.active').offset().left);
@@ -138,6 +130,16 @@
 			$('.scrolly').scrolly();
 
 		//Анимация меню
+		var screenwidth = $(document).width();
+		$("#nav ul li").on("click", function(){
+			if (screenwidth < 736) {
+				$( "#nav" ).slideToggle( "fast", function() {
+					$( ".cross" ).hide();
+					$( ".hamburger" ).show();
+				});
+			}
+		})
+			
 		$( ".cross" ).hide();
 		$( ".hamburger" ).click(function() {
 			$( "#nav" ).slideToggle( "slow", function() {

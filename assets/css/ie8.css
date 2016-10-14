@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadProLight";
+  src: url("../fonts/MyriadPro/MyriadProLight.eot");
+  src: url("../fonts/MyriadPro/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadProSemibold";
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProSemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadPro/MyriadProBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProBold.ttf") format("truetype"); }
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn

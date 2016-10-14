@@ -24,7 +24,7 @@
 		new WOW().init();
 
 		$window.on('load', function() {
-			$(".preloader").fadeOut(500);
+			$(".preloader").fadeOut(600);
 		});
 
 		//Скрипт меню и вывода блоков
@@ -87,13 +87,7 @@
 				);
 			});
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				mode: 'fade',
-				speed: 350,
-				noOpenerFade: true,
-				alignment: 'center'
-			});
+		
 
 		// Scrolly кнопки
 			$('.scrolly').scrolly();
@@ -102,7 +96,7 @@
 		$("#nav ul li").on("tap", function(){
 			var screenwidth = $("#nav").width();
 			if (screenwidth < 736) {
-				$( "#nav" ).slideToggle( "fast", function() {
+				$( "#nav" ).slideToggle( 500, function() {
 					$( ".cross" ).hide();
 					$( ".hamburger" ).show();
 				});
@@ -111,14 +105,14 @@
 			
 		$( ".cross" ).hide();
 		$( ".hamburger" ).click(function() {
-			$( "#nav" ).slideToggle( "fast", function() {
+			$( "#nav" ).slideToggle( 500, function() {
 				$( ".hamburger" ).hide();
 				$( ".cross" ).show();
 			});
 		});
 
 		$( ".cross" ).click(function() {
-			$( "#nav" ).slideToggle( "fast", function() {
+			$( "#nav" ).slideToggle( 500, function() {
 				$( ".cross" ).hide();
 				$( ".hamburger" ).show();
 			});

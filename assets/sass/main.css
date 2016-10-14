@@ -1398,8 +1398,8 @@ body {
   .preloader img {
     top: 50%;
     left: 50%;
-    margin-left: -30px;
-    margin-top: -30px;
+    margin-left: -15px;
+    margin-top: -15px;
     height: 60px;
     width: 60px;
     position: relative; }

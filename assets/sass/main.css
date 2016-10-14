@@ -1559,7 +1559,8 @@ section, article {
     margin-bottom: 2em;
     padding: 0 0.5em;
     width: 9em;
-    height: 2.3em; }
+    height: 2.3em;
+    outline: none; }
   .row > article input[type="submit"] {
     display: block;
     background: #0f5499;

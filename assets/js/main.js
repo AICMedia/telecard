@@ -130,8 +130,10 @@
 			$('.scrolly').scrolly();
 
 		//Анимация меню
-		var screenwidth = $(document).width();
+		
+
 		$("#nav ul li").on("tap", function(){
+			var screenwidth = $("#nav").width();
 			if (screenwidth < 736) {
 				$( "#nav" ).slideToggle( "fast", function() {
 					$( ".cross" ).hide();
@@ -142,14 +144,14 @@
 			
 		$( ".cross" ).hide();
 		$( ".hamburger" ).click(function() {
-			$( "#nav" ).slideToggle( "slow", function() {
+			$( "#nav" ).slideToggle( "fast", function() {
 				$( ".hamburger" ).hide();
 				$( ".cross" ).show();
 			});
 		});
 
 		$( ".cross" ).click(function() {
-			$( "#nav" ).slideToggle( "slow", function() {
+			$( "#nav" ).slideToggle( "fast", function() {
 				$( ".cross" ).hide();
 				$( ".hamburger" ).show();
 			});

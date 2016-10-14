@@ -2538,6 +2538,8 @@ body.homepage.is-loading #banner:after {
   /* Wrapper */
   .wrapper {
     padding: 3em 1em 3em 1em; }
+    .wrapper.style1, .wrapper.style2 {
+      padding: 2em 0 0em; }
 
   /* Header */
   #header {

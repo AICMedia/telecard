@@ -1689,6 +1689,10 @@
 		/* Wrapper */
 
 			.wrapper {
+				&.style1, &.style2 {
+				    padding: 2em 0 0em;
+				}
+				  
 				padding: 3em 1em 3em 1em;
 			}
 

@@ -131,7 +131,7 @@
 
 		//Анимация меню
 		var screenwidth = $(document).width();
-		$("#nav ul li").on("click", function(){
+		$("#nav ul li").on("tap", function(){
 			if (screenwidth < 736) {
 				$( "#nav" ).slideToggle( "fast", function() {
 					$( ".cross" ).hide();

@@ -1,16 +1,20 @@
 @import url("../css/font-awesome.min.css");
 @font-face {
   font-family: "MyriadPro";
-  src: url("../fonts/MyriadPro/MyriadProRegular.otf"); }
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype"); }
 @font-face {
   font-family: "MyriadProLight";
-  src: url("../fonts/MyriadPro/MyriadProLight.otf"); }
+  src: url("../fonts/MyriadPro/MyriadProLight.eot");
+  src: url("../fonts/MyriadPro/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProLight.ttf") format("truetype"); }
 @font-face {
   font-family: "MyriadProSemibold";
-  src: url("../fonts/MyriadPro/MyriadProSemiBold.otf"); }
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProSemiBold.ttf") format("truetype"); }
 @font-face {
   font-family: "MyriadProBold";
-  src: url("../fonts/MyriadPro/MyriadProBold.otf"); }
+  src: url("../fonts/MyriadPro/MyriadProBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProBold.ttf") format("truetype"); }
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -1390,7 +1394,7 @@ body {
   color: #5c5c5c;
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'MyriadProLight', sans-serif;
   font-weight: 300; }
   body.is-loading *, body.is-loading *:after, body.is-loading *:before {
     -moz-transition: none !important;
@@ -1405,14 +1409,14 @@ body {
 input, textarea, select {
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: 'MyriadPro', sans-serif;
+  font: 'MyriadPro', sans-serif;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #483949;
   line-height: 1.25em;
-  font-family: "MyriadProLight"; }
+  font: "MyriadProLight"; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
@@ -1467,7 +1471,7 @@ blockquote {
 
 p, ul, ol, dl, table {
   margin-bottom: 1em;
-  font-family: "MyriadProLight";
+  font: "MyriadProLight";
   opacity: 0.85; }
 
 p {

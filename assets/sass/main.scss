@@ -63,7 +63,7 @@
 		color: #5c5c5c;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'MyriadProLight', sans-serif;
 		font-weight: 300;
 
 		&.is-loading {
@@ -77,7 +77,7 @@
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'MyriadPro', sans-serif;
+		font: 'MyriadPro', sans-serif;
 		font-weight: 300;
 	}
 
@@ -85,7 +85,7 @@
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
-		font-family: "MyriadProLight";
+		font: "MyriadProLight";
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -151,7 +151,7 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
-		font-family: "MyriadProLight";
+		font: "MyriadProLight";
 		opacity: 0.85;
 	}
 

@@ -59,7 +59,8 @@
     $filepath: "../fonts/" + $family + "/" + $file;
     @font-face {
         font-family: "#{$style-name}";
-        src: url($filepath + ".otf");
+        src: url($filepath + ".eot");
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".ttf")  format('truetype');
     }
     %#{$style-name} {
         font: {

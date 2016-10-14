@@ -1558,7 +1558,8 @@ section, article {
     border-radius: 0.3em;
     margin-bottom: 2em;
     padding: 0 0.5em;
-    width: 9em; }
+    width: 9em;
+    height: 2.3em; }
   .row > article input[type="submit"] {
     display: block;
     background: #0f5499;

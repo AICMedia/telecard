@@ -34,7 +34,6 @@
 			$('#banner .inner').each(function(){
 				var c_block = $(this);
 				var sh_block = $(this).attr('data-category');
-				console.log("sh_block "+sh_block);
 
 				if(a_block == sh_block){
 					$(c_block).toggleClass("zoomIn animated");

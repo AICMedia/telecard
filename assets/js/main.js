@@ -30,7 +30,6 @@
 		//Скрипт меню и вывода блоков
 		function activeBlock(){
 			var a_block = $("#nav").find(".active").attr('data-category');
-			console.log("a_block "+a_block);
 			$('#banner .inner').each(function(){
 				var c_block = $(this);
 				var sh_block = $(this).attr('data-category');

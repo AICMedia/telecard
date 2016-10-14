@@ -97,10 +97,9 @@
 		$("#iphone").mask("+7 999 999 99 99");
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
 
 			$window.on('load', function() {
-				$body.removeClass('is-loading');
+				$(".preloader").fadeOut(500);
 			});
 
 		// CSS polyfills (IE<9).

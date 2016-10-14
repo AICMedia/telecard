@@ -60,7 +60,7 @@
     @font-face {
         font-family: "#{$style-name}";
         src: url($filepath + ".eot");
-        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".ttf")  format('truetype');
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".woff")  format('woff');
     }
     %#{$style-name} {
         font: {

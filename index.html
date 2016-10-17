@@ -15,12 +15,14 @@
 					<img src ="assets/img/GazGif.gif"/>
 				</div>
 
+			<div id="fullpage">
+
 			<!-- Header -->
-				<div id="header">
+				<div id="header" class="section" data-anchor="block1">
 					<!-- Inner -->
 
-					<div class="inner animated fadeInDown">
-						<div class="logo"><img  src="assets/img/logo.png"/></div>
+					<div class="inner">
+						<div class="logo_header"></div>
 						<header>
 							<h1>Мобильный банк</br>Телекард</h1>
 							<p>Переводите деньги, оплачивайте услуги, следите </br> за расходами и многое другое</p>
@@ -32,7 +34,7 @@
 				</div>
 
 			<!-- Banner -->
-				<section id="banner">
+				<section id="banner" class="section" data-anchor="block2">
 				<!-- Nav -->
 					<div class="hamb_menu">
 					  <button class="hamburger">&#9776;</button>
@@ -50,9 +52,18 @@
 					</nav>
 					
 
-					<div class="inner" data-category="uslugi">
-						<div class="image"><img src="assets/img/phone.png"/></div>
-						<div class="description">
+					<div class="inner">
+						<div class="image">
+							<div class="phone">
+								<img src="assets/img/phone_inside.png" data-category="uslugi"/>
+								<img src="assets/img/phone_inside.png" data-category="transfer"/>
+								<img src="assets/img/phone_inside.png" data-category="bankomats"/>
+								<img src="assets/img/phone_inside.png" data-category="notice"/>
+								<img src="assets/img/phone_inside.png" data-category="cards"/>
+							</div>
+						</div>
+
+						<div class="description" data-category="uslugi">
 							<header>
 								<h1>Оплачивайте </br> услуги</h1>
 								<p>Платите за мобильную связь, интернет </br>и другие услуги через мобильное </br>приложение без комиссий и экономьте </br> свое время</p>
@@ -61,10 +72,7 @@
 								<a href="#features" class="button circled scrolly">Скачать приложение</a>
 							</footer>
 						</div>
-					</div>
-					<div class="inner" data-category="transfer">
-						<div class="image"><img src="assets/img/transfer.png"/></div>
-						<div class="description">
+						<div class="description" data-category="transfer">
 							<header>
 								<h1>Переводите </br> деньги</h1>
 								<p>Платите за мобильную связь, интернет </br>и другие услуги через мобильное </br>приложение без комиссий и экономьте </br> свое время</p>
@@ -73,22 +81,16 @@
 								<a href="#features" class="button circled scrolly">Скачать приложение</a>
 							</footer>
 						</div>
-					</div>
-					<div class="inner" data-category="bankomats">
-						<div class="image"><img src="assets/img/phone.png"/></div>
-						<div class="description">
+						<div class="description" data-category="bankomats">
 							<header>
-								<h1>Находите банкоматы</h1>
+								<h1>Находите </br> банкоматы</h1>
 								<p>Платите за мобильную связь, интернет </br>и другие услуги через мобильное </br>приложение без комиссий и экономьте </br> свое время</p>
 							</header>
 							<footer>
 								<a href="#features" class="button circled scrolly">Скачать приложение</a>
 							</footer>
 						</div>
-					</div>
-					<div class="inner" data-category="notice">
-						<div class="image"><img src="assets/img/transfer.png"/></div>
-						<div class="description">
+						<div class="description" data-category="notice">
 							<header>
 								<h1>Смотрите </br> выписки</h1>
 								<p>Платите за мобильную связь, интернет </br>и другие услуги через мобильное </br>приложение без комиссий и экономьте </br> свое время</p>
@@ -97,23 +99,21 @@
 								<a href="#features" class="button circled scrolly">Скачать приложение</a>
 							</footer>
 						</div>
-					</div>
-					<div class="inner" data-category="cards">
-						<div class="image"><img src="assets/img/phone.png"/></div>
-						<div class="description">
+						<div class="description" data-category="cards">
 							<header>
-								<h1>Ваши </br> карты</h1>
+								<h1>Ваши карты</h1>
 								<p>Платите за мобильную связь, интернет </br>и другие услуги через мобильное </br>приложение без комиссий и экономьте </br> свое время</p>
 							</header>
 							<footer>
 								<a href="#features" class="button circled scrolly">Скачать приложение</a>
 							</footer>
 						</div>
+
 					</div>
 				</section>
 
 			<!-- Features -->
-				<div class="wrapper style1">
+				<div class="section wrapper style1" data-anchor="block3">
 
 					<section id="features" class="container special">
 						<header>
@@ -121,33 +121,32 @@
 							<h2>Скачайте мобильный банк</h2>
 						</header>
 						<div class="row">
-							<article class="4u 12u(mobile) special wow zoomIn" data-wow-duration="800ms" data-wow-delay="300ms">
+							<article class="4u 12u(mobile) special wow fadeInUp" data-wow-duration="800ms" data-wow-delay="300ms">
 								<p>Скачайте «Телекард»</br>в магазине приложений</p>
-								<a href=""><img src="assets/img/GooglePlay.png"/></a>
-								<a href=""><img src="assets/img/AppStore.png"/></a>
+								<a href=""><div class="googleplay"/></div></a>
+								<a href=""><div class="appstore"></div></a>
 							</article>
-							<article class="4u 12u(mobile) special wow zoomIn" data-wow-duration="800ms" data-wow-delay="600ms">
+							<article class="4u 12u(mobile) special wow fadeInUp" data-wow-duration="800ms" data-wow-delay="600ms">
 								<p>Или отсканируйте QR-код </br> при помощи мобильного устройства</p>
 								<a href=""><img src="assets/img/QR.png"/></a>
 							</article>
-							<article class="4u 12u(mobile) special wow zoomIn" data-wow-duration="800ms" data-wow-delay="900ms">
+							<article class="4u 12u(mobile) special wow fadeInUp" data-wow-duration="800ms" data-wow-delay="900ms">
 								<p>Отправить мне сообщение </br> со ссылкой на скачивание</p>
-								<input id="iphone" type="text" placeholder="+7 926 765 74 34">
+								<input id="iphone" type="text" placeholder="+7 926 765 74 34"></br>
 								<input type="submit" value="Отправить">
 								</article>
 						</div>
 					</section>
-
 				</div>
 
-				<div class="wrapper style2">
+				<div class=" section wrapper style2" data-anchor="block4">
 
 					<section id="documents" class="container special">
 						<header>
 							<h2>Документы и инструкции</h2>
 						</header>
 						<div class="row">
-							<article class="4u 6u(narrow) 12u(smobile) spacial wow zoomIn" data-wow-duration="500ms" data-wow-delay="100ms">
+							<article class="4u 6u(narrow) 12u(smobile) spacial wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 								<div class="pdf"><span>PDF</span></div>
 								<div class="description">
 									<a href="">Лицензионное соглашение</a>
@@ -155,14 +154,14 @@
 									<p class="doc-weight">435 кб</p>
 								</div>
 							</article>
-							<article class="4u 6u(narrow) 12u(smobile) clearfix special wow zoomIn" data-wow-duration="500ms" data-wow-delay="200ms">
+							<article class="4u 6u(narrow) 12u(smobile) clearfix special wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 								<div class="pdf"><span>PDF</span></div>
 								<div class="description">
 									<a href="">Правила и условия </br> использования Системы "Телекард" </a>
 									<p class="doc-weight">263 кб</p>
 								</div>
 							</article>
-							<article class="4u 6u(narrow) 12u(smobile) special wow zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
+							<article class="4u 6u(narrow) 12u(smobile) special wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 								<div class="pdf"><span>PDF</span></div>
 								<div class="description">
 									<a href="">Тарифы</a>
@@ -171,7 +170,7 @@
 							</article>
 						</div>
 						<div class="row">
-							<article class="4u 6u(narrow) 12u(smobile) special wow zoomIn" data-wow-duration="500ms" data-wow-delay="400ms">
+							<article class="4u 6u(narrow) 12u(smobile) special wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 								<h3>Iphone</h3>
 								<div class="table">
 									<div class="pdf"><span>PDF</span></div>
@@ -182,7 +181,7 @@
 								</div>
 							</article>
 
-							<article class="4u 6u(narrow) 12u(smobile) special wow zoomIn" data-wow-duration="500ms" data-wow-delay="500ms">
+							<article class="4u 6u(narrow) 12u(smobile) special wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
 								<h3>Android</h3>
 								<div class="table">
 									<div class="pdf"><span>PDF</span></div>
@@ -193,7 +192,7 @@
 								</div>
 							</article>
 
-							<article class="4u 6u(narrow) 12u(smobile) special wow zoomIn" data-wow-duration="500ms" data-wow-delay="600ms">
+							<article class="4u 6u(narrow) 12u(smobile) special wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
 								<h3>Windows Phone</h3>
 								<div class="table">
 									<div class="pdf"><span>PDF</span></div>
@@ -209,7 +208,7 @@
 					<section id="footer" class="container special">
 						<div class="row">
 							<article class="6u 12u(smobile)">
-								<img class="logo" src="assets/img/logo_blue_tr.png"/>
+								<div class="logofooter"/></div>
 								<p>© 2016 Банк ГПБ (АО)</p>
 								<p>Генеральная лицензия Банка России №354</p>
 							</article>
@@ -225,12 +224,13 @@
 						</div>
 					</section>
 				</div>
-
 		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/wow.min.js"></script>
+			<script src="assets/js/jquery.fullPage.min.js"></script>
+			
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>

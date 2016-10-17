@@ -21,28 +21,58 @@
 			$body = $('body'),
 			$banner = $('#banner');
 
-		new WOW().init();
-
 		$window.on('load', function() {
 			$(".preloader").fadeOut(600);
+			$('#header .inner').addClass("animated fadeInDown");
 		});
+
+		//Полноэкранный скроллинг
+		var doFullpage = $body.outerWidth();
+        if (doFullpage > 737) {
+			$('#fullpage').fullpage({
+				anchors: ['block1', 'block2', 'block3', 'block4'],
+	            css3: true,
+	            scrollingSpeed: 1000,
+			    easing: 'linear',
+			    easingcss3: 'ease',
+			    scrollBar:true
+			  });
+		}
+		new WOW().init();
 
 		//Скрипт меню и вывода блоков
 		function activeBlock(){
 			var a_block = $("#nav").find(".active").attr('data-category');
-			$('#banner .inner').each(function(){
+			$('#banner .description').each(function(){
 				var c_block = $(this);
 				var sh_block = $(this).attr('data-category');
 
 				if(a_block == sh_block){
-					$(c_block).toggleClass("zoomIn animated");
+					$(c_block).toggleClass("fadeInRight animated");
 					setTimeout(function(){
-						$(c_block).css({"display":"table"});
+						$(c_block).css({"display":"table-cell"});
 					},200);
 				} else{
-					$(c_block).removeClass("zoomIn");
+					$(c_block).removeClass("fadeInRight");
 					setTimeout(function(){
 						$(c_block).css({"display":"none"}).removeClass("animated");
+					},200); 
+				} 
+			});
+
+			$('.image img').each(function(){
+				var c_block = $(this);
+				var sh_block = $(this).attr('data-category');
+
+				if(a_block == sh_block){
+					$(c_block).toggleClass("fadeIn animated");
+					setTimeout(function(){
+						$(c_block).show();
+					},200);
+				} else{
+					$(c_block).removeClass("fadeIn");
+					setTimeout(function(){
+						$(c_block).hide().removeClass("animated");
 					},200); 
 				} 
 			});

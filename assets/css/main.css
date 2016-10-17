@@ -1,20 +1,20 @@
 @import url("../css/font-awesome.min.css");
 @font-face {
   font-family: "MyriadPro";
-  src: url("../fonts/MyriadPro/MyriadProRegular.ttf");
-  src: url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadPro/MyriadProRegular.svg#MyriadPro") format("svg"); }
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProRegular.woff") format("woff"); }
 @font-face {
   font-family: "MyriadProLight";
-  src: url("../fonts/MyriadPro/MyriadProLight.ttf");
-  src: url("../fonts/MyriadPro/MyriadProLight.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProLight.woff") format("woff"), url("../fonts/MyriadPro/MyriadProLight.svg#MyriadProLight") format("svg"); }
+  src: url("../fonts/MyriadPro/MyriadProLight.eot");
+  src: url("../fonts/MyriadPro/MyriadProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProLight.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProLight.woff") format("woff"); }
 @font-face {
   font-family: "MyriadProSemibold";
-  src: url("../fonts/MyriadPro/MyriadProSemiBold.ttf");
-  src: url("../fonts/MyriadPro/MyriadProSemiBold.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProSemiBold.woff") format("woff"), url("../fonts/MyriadPro/MyriadProSemiBold.svg#MyriadProSemibold") format("svg"); }
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProSemiBold.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProSemiBold.woff") format("woff"); }
 @font-face {
   font-family: "MyriadProBold";
-  src: url("../fonts/MyriadPro/MyriadProBold.ttf");
-  src: url("../fonts/MyriadPro/MyriadProBold.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProBold.woff") format("woff"), url("../fonts/MyriadPro/MyriadProBold.svg#MyriadProBold") format("svg"); }
+  src: url("../fonts/MyriadPro/MyriadProBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProBold.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProBold.woff") format("woff"); }
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -1389,13 +1389,46 @@ body {
   .\-1u\28smobile\29 {
     margin-left: 8.33333%; } }
 /* Basic */
+.preloader {
+  background-color: #242424;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+  .preloader img {
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    height: 60px;
+    width: 60px;
+    position: relative; }
+
 body {
   background: #fff;
   color: #5c5c5c;
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300; }
+  font-family: 'MyriadProLight', sans-serif;
+  font-weight: 300;
+  overflow: hidden; }
+  body .appstore {
+    background: url("../img/appstore.svg") no-repeat;
+    width: 150px;
+    height: 50px;
+    display: inline-block; }
+  body .googleplay {
+    background: url("../img/google_play.svg") no-repeat;
+    width: 150px;
+    height: 50px;
+    display: inline-block; }
+  body .logofooter {
+    background: url("../img/logo_footer_gazpromb.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    margin-right: 2em; }
   body.is-loading *, body.is-loading *:after, body.is-loading *:before {
     -moz-transition: none !important;
     -webkit-transition: none !important;
@@ -1409,14 +1442,14 @@ body {
 input, textarea, select {
   font-size: 15pt;
   line-height: 1.85em;
-  font-family: 'MyriadPro', sans-serif;
+  font: 'MyriadPro', sans-serif;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #483949;
   line-height: 1.25em;
-  font-family: "MyriadProLight"; }
+  font: "MyriadProLight"; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
@@ -1471,7 +1504,7 @@ blockquote {
 
 p, ul, ol, dl, table {
   margin-bottom: 1em;
-  font-family: "MyriadProLight";
+  font: "MyriadProLight";
   opacity: 0.85; }
 
 p {
@@ -1520,7 +1553,7 @@ section, article {
     text-align: center; }
     section.special > header img.logo, section.special > footer img.logo, article.special > header img.logo, article.special > footer img.logo {
       box-shadow: 0px 0px 10px rgba(30, 48, 85, 0.2);
-      border-radius: 1.5em;
+      border-radius: 1.15em;
       margin-bottom: 1.5em; }
 
 .row > section, .row > article {
@@ -1543,7 +1576,10 @@ section, article {
     border-radius: 0.3em;
     margin-bottom: 2em;
     padding: 0 0.5em;
-    width: 9em; }
+    width: 11em;
+    height: 3em;
+    outline: none;
+    text-align: center; }
   .row > article input[type="submit"] {
     display: block;
     background: #0f5499;
@@ -1553,7 +1589,7 @@ section, article {
     margin: 0 auto; }
 
 #documents {
-  margin-bottom: 7em; }
+  margin-bottom: 5em; }
 
 #documents .row > section, #documents .row > article, #footer .row > section, #footer .row > article {
   margin-bottom: 0; }
@@ -1911,7 +1947,7 @@ button,
   margin: 0 0 2em 0;
   padding: 4em 0; }
   .wrapper.style1 {
-    padding: 2em 0 4em; }
+    padding: 4em 0 4em; }
   .wrapper.style2 {
     background: url("../img/fourth-section.png") no-repeat;
     background-size: cover;
@@ -1933,12 +1969,15 @@ button,
     content: '';
     display: inline-block;
     vertical-align: middle;
-    height: 100%; }
+    height: 0; }
+  #header .fp-tableCell {
+    display: table;
+    vertical-align: middle; }
   #header .inner {
     position: relative;
     z-index: 1;
     margin: 0;
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle; }
     #header .inner .logo {
       margin-bottom: 1.7em; }
@@ -1975,6 +2014,8 @@ button,
   #header footer {
     margin: 1em 0 0 0; }
 
+body.homepage :-webkit-full-screen #header {
+  height: 100vh; }
 body.homepage #header {
   height: 100vh;
   min-height: 40em; }
@@ -2085,7 +2126,6 @@ body.homepage.is-loading #header:after {
   background-image: url("../../assets/img/second-section.png");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
   color: #fff;
   text-align: left;
   padding: 2em 7em;
@@ -2104,7 +2144,15 @@ body.homepage.is-loading #header:after {
       width: 50%;
       display: table-cell;
       text-align: center;
-      vertical-align: middle; }
+      vertical-align: middle;
+      background: url("../img/phone.png") no-repeat;
+      background-size: contain; }
+      #banner .inner .image .phone {
+        width: 300px;
+        background: url("../img/phone.png") no-repeat;
+        background-size: contain;
+        display: block;
+        margin: 0 auto; }
       #banner .inner .image img {
         max-height: 550px;
         display: inline;
@@ -2446,7 +2494,9 @@ body.homepage.is-loading #banner:after {
   /* List */
   #nav {
     background-color: #091D3F;
-    overflow: visible; }
+    overflow: visible;
+    margin-top: 50px;
+    padding: 2em 0 2em 0; }
     #nav > ul {
       line-height: 1em; }
       #nav > ul > li {
@@ -2500,119 +2550,6 @@ body.homepage.is-loading #banner:after {
     transition: transform 0.5s ease;
     padding-bottom: 1px; }
 
-  #navButton {
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-transition: -moz-transform 0.5s ease;
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -ms-transition: -ms-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    display: block;
-    height: 44px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10001; }
-    #navButton .toggle {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-      outline: 0; }
-      #navButton .toggle:before {
-        font-family: FontAwesome;
-        text-decoration: none;
-        font-style: normal;
-        font-weight: normal;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        content: '\f0c9';
-        color: #fff;
-        color: rgba(255, 255, 255, 0.75);
-        text-align: center;
-        display: block;
-        font-size: 14px;
-        width: 80px;
-        height: 30px;
-        line-height: 30px;
-        position: absolute;
-        left: 50%;
-        margin-left: -40px;
-        background: rgba(132, 128, 136, 0.75);
-        border-top: 0;
-        border-radius: 0 0 0.35em 0.35em; }
-
-  #navPanel {
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-transform: translateY(-50vh);
-    -webkit-transform: translateY(-50vh);
-    -ms-transform: translateY(-50vh);
-    transform: translateY(-50vh);
-    -moz-transition: -moz-transform 0.5s ease;
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -ms-transition: -ms-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    display: block;
-    height: 50vh;
-    left: 0;
-    overflow-y: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10002;
-    background: #00457c;
-    box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
-    font-size: 1em; }
-    #navPanel:before {
-      content: '';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("images/overlay.png");
-      background-size: 128px 128px; }
-    #navPanel .link {
-      position: relative;
-      z-index: 1;
-      display: block;
-      text-decoration: none;
-      padding: 0.5em;
-      color: #ddd;
-      border: 0;
-      border-top: dotted 1px rgba(255, 255, 255, 0.05); }
-      #navPanel .link:first-child {
-        border-top: 0; }
-      #navPanel .link.depth-0 {
-        color: #fff;
-        font-weight: 600; }
-    #navPanel .indent-1 {
-      display: inline-block;
-      width: 1em; }
-    #navPanel .indent-2 {
-      display: inline-block;
-      width: 2em; }
-    #navPanel .indent-3 {
-      display: inline-block;
-      width: 3em; }
-    #navPanel .indent-4 {
-      display: inline-block;
-      width: 4em; }
-    #navPanel .indent-5 {
-      display: inline-block;
-      width: 5em; }
-    #navPanel .depth-0 {
-      color: #fff; }
-
   body.navPanel-visible #page-wrapper {
     -moz-transform: translateY(50vh);
     -webkit-transform: translateY(50vh);
@@ -2632,6 +2569,8 @@ body.homepage.is-loading #banner:after {
   /* Wrapper */
   .wrapper {
     padding: 3em 1em 3em 1em; }
+    .wrapper.style1, .wrapper.style2 {
+      padding: 2em 0 0em; }
 
   /* Header */
   #header {
@@ -2654,7 +2593,7 @@ body.homepage.is-loading #banner:after {
   body.homepage #header {
     min-height: 0;
     padding: 5.5em 0 5em 0;
-    height: auto; }
+    background-position: 44em 0em; }
     body.homepage #header:before {
       display: none; }
     body.homepage #header h1 {
@@ -2694,14 +2633,13 @@ body.homepage.is-loading #banner:after {
   .cross {
     background: none;
     position: absolute;
-    top: 0px;
+    top: 13px;
     right: 0;
-    padding: 13px 15px 0px 15px;
     color: #fff;
     border: 0;
-    font-size: 3em;
-    line-height: 45px;
-    font-weight: bold;
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: normal;
     cursor: pointer;
     outline: none;
     z-index: 10000000000000; }
@@ -2710,6 +2648,8 @@ body.homepage.is-loading #banner:after {
 
   #banner {
     padding: 3em 2em 3em 2em; }
+    #banner .inner {
+      height: 100%; }
     #banner:before {
       height: 0; }
     #banner header > p {

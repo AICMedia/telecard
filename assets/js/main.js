@@ -33,6 +33,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 		if ( isMobile ) {
  			$('.advert').show();
 		}
+		$('.crossed').on('click', function(){
+			$('.advert').hide();
+		})
 
 //Скрипт меню и вывода блоков
 		function activeBlock(){

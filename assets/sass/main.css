@@ -2817,6 +2817,8 @@ body.homepage.is-loading #banner:after {
       display: none; }
     body.homepage #header h1 {
       font-size: 2em; }
+  body.homepage .logofooter {
+    padding-left: 8px; }
 
   /* Nav */
   #nav {

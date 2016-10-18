@@ -2324,10 +2324,16 @@ body.homepage.is-loading #header:after {
     display: inline-block;
     vertical-align: middle;
     height: 20%; }
+  #banner .download {
+    display: block;
+    margin: 1em auto 0;
+    width: 50%;
+    float: right;
+    padding-left: 1.5em; }
   #banner .inner {
     display: table;
     width: 80%;
-    height: 60%;
+    height: auto;
     margin: 0 auto; }
     #banner .inner .image {
       width: 50%;
@@ -2860,9 +2866,12 @@ body.homepage.is-loading #banner:after {
       background: none; }
 
   #banner {
-    padding: 3em 2em 3em 2em; }
+    padding: 5em 2em 3em 2em; }
+    #banner .download {
+      width: 12.5em;
+      float: none;
+      padding-left: 0em; }
     #banner .inner {
-      height: 100%;
       width: 100%; }
       #banner .inner .image {
         display: none; }

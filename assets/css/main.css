@@ -2871,9 +2871,10 @@ body.homepage.is-loading #banner:after {
         margin: 0 auto; }
         #banner .inner .description header {
           display: block;
-          padding: 0 0 0 2em; }
+          padding: 0 0 0 1em; }
         #banner .inner .description footer {
-          text-align: center; }
+          text-align: left;
+          padding-left: 1em; }
     #banner:before {
       height: 0; }
     #banner header > p {

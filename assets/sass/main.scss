@@ -1063,13 +1063,20 @@
 			vertical-align: middle;
 			height: 20%;
 		}
+		
+		.download {
+			display: block;
+			margin: 1em auto 0;
+			width: 50%;
+			float: right;
+			padding-left: 1.5em;	
+		}
 
 		.inner {
 			display: table;
 			width: 80%;
-			height:60%;
+			height:auto;
 			margin:0 auto;
-
 			
 			.image{
 				.phone{
@@ -1877,10 +1884,13 @@
 			}
 
 			#banner {
-				padding: 3em 2em 3em 2em;
-
+				padding: 5em 2em 3em 2em;
+				.download {
+				    width: 12.5em;
+				    float: none;
+				    padding-left: 0em;
+				}
 				.inner{
-					height:100%;
 					width:100%;
 					.image {
 						display:none;

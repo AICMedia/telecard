@@ -1588,6 +1588,52 @@ body {
     width: 60px;
     position: relative; }
 
+.advert {
+  background-color: #FFF;
+  height: 70px;
+  width: 96%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #666;
+  margin: 5px;
+  display: none; }
+  .advert img {
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+    box-shadow: 0 1px 5px #999;
+    border-radius: 10px; }
+  .advert h3 {
+    font-size: 14px; }
+    .advert h3 span {
+      font-weight: 900; }
+  .advert .crossed {
+    background: none;
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    color: #333;
+    border: 0;
+    font-size: 28px;
+    line-height: 0;
+    font-weight: normal;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+    width: 20px;
+    height: 20px; }
+    .advert .crossed:hover {
+      background: none; }
+  .advert p {
+    text-transform: uppercase;
+    text-align: right;
+    color: #0B8021;
+    font-size: 10px; }
+
 body {
   background: #fff;
   color: #5c5c5c;
@@ -2836,38 +2882,6 @@ body.homepage.is-loading #banner:after {
     top: 0;
     left: 0; }
 
-  .hamburger {
-    background: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    line-height: 50px;
-    color: #fff;
-    border: 0;
-    font-size: 1.4em;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    z-index: 10000000000000; }
-    .hamburger:hover {
-      background: none; }
-
-  .cross {
-    background: none;
-    position: absolute;
-    top: 13px;
-    right: 0;
-    color: #fff;
-    border: 0;
-    font-size: 4em;
-    line-height: 60px;
-    font-weight: normal;
-    cursor: pointer;
-    outline: none;
-    z-index: 10000000000000; }
-    .cross:hover {
-      background: none; }
-
   #banner {
     padding: 5em 2em 3em 2em; }
     #banner .download {
@@ -2931,7 +2945,11 @@ body.homepage.is-loading #banner:after {
     font-size: 0.7em; }
 
   #banner .inner .image {
-    display: none; } }
+    display: none; }
+  #banner .inner .description header {
+    padding: 0; }
+  #banner .download {
+    padding-left: 10px; } }
 #carusel {
   background-color: #456; }
 

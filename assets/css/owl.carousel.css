@@ -38,6 +38,14 @@
 	display: block;
 	margin: 0 auto;
 }
+@media screen and (max-width:400px){
+	.owl-carousel .owl-wrapper-outer{
+		width: 240px;
+	}
+	.owl-theme .owl-controls {
+	    width: 240px!important;
+	}
+}
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;

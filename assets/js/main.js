@@ -26,6 +26,10 @@
 			$('#header .inner').addClass("animated fadeInDown");
 		});
 
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 			$('.advert').show();
+		}
+
 //Скрипт меню и вывода блоков
 		function activeBlock(){
 			var a_block = $("#nav").find(".active").attr('data-category');

@@ -2785,8 +2785,8 @@ body.homepage.is-loading #banner:after {
     -ms-transform: translateY(0);
     transform: translateY(0); }
   body .logofooter {
-    padding-left: 8px;
-    margin-right: 1.5em; }
+    margin-left: 10px;
+    margin-right: 1em; }
 
   /* Wrapper */
   .wrapper {

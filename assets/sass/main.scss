@@ -1770,6 +1770,10 @@
 						@include vendor('transform', 'translateY(0)');
 					}
 				}
+				.logofooter{
+					padding-left:8px;
+					margin-right: 1.5em;
+				}
 			}
 
 		/* Wrapper */
@@ -1826,10 +1830,6 @@
 					h1 {
 						font-size: 2em;
 					}
-				}
-
-				.logofooter{
-					padding-left:8px;
 				}
 			}
 

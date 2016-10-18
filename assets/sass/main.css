@@ -2784,6 +2784,9 @@ body.homepage.is-loading #banner:after {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); }
+  body .logofooter {
+    padding-left: 8px;
+    margin-right: 1.5em; }
 
   /* Wrapper */
   .wrapper {
@@ -2817,8 +2820,6 @@ body.homepage.is-loading #banner:after {
       display: none; }
     body.homepage #header h1 {
       font-size: 2em; }
-  body.homepage .logofooter {
-    padding-left: 8px; }
 
   /* Nav */
   #nav {

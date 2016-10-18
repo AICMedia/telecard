@@ -17,6 +17,7 @@
 
 	@include skel-breakpoints((
 		wide: '(max-width: 1680px)',
+		normaller: '(max-width: 1370px)',
 		normal: '(max-width: 1280px)',
 		narrow: '(max-width: 960px)',
 		narrower: '(max-width: 840px)',
@@ -1358,6 +1359,26 @@
 	}
 
 /* Normal */
+	@include breakpoint(normaller) {
+		#banner .inner .image{
+			.phone{
+				width:200px;
+				height:420px;
+				background:url('../img/phone.png') no-repeat;
+		    	background-size:contain;
+		    	display:block;
+		    	position:absolute;
+		    	top:0;
+		    	right:20%;
+			}
+
+		    img{
+		    	top: 48px;
+				left: 8px;
+				max-height: 323px;			
+			}
+		}
+	}
 
 	@include breakpoint(normal) {
 
@@ -1480,12 +1501,14 @@
 				}
 				.image{
 					.phone{
-					height:500px;
-					width:270px;
+					height: 320px;
+					width: 175px;
 					right:0%;
 
 						img{
-							max-height:365px;
+							max-height: 242px;
+							top: 35px;
+							left: 7px;
 						}
 					}
 				}
@@ -1813,7 +1836,7 @@
 			    height: 50px;
 			    line-height: 50px;
 			    position: absolute;
-			    display: block;
+			    display: none;
 			    top: 0;
 			    left: 0;
 			}
@@ -1858,6 +1881,23 @@
 
 				.inner{
 					height:100%;
+					width:100%;
+					.image {
+						display:none;
+					}
+					.description {
+						display:block;
+						margin:0 auto;
+
+						header{
+							display: block;
+							padding: 0 0 0 1em;
+						}
+						footer {
+							text-align:left;
+							padding-left: 1em;
+						}
+					}
 				}
 
 				&:before{
@@ -1955,4 +1995,8 @@
 				}
 			}
 		}
+	}
+
+	#carusel{
+		background-color:#456;
 	}

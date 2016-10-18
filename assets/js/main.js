@@ -26,21 +26,7 @@
 			$('#header .inner').addClass("animated fadeInDown");
 		});
 
-		//Полноэкранный скроллинг
-		var doFullpage = $body.outerWidth();
-        if (doFullpage > 737) {
-			$('#fullpage').fullpage({
-				anchors: ['block1', 'block2', 'block3', 'block4'],
-	            css3: true,
-	            scrollingSpeed: 1000,
-			    easing: 'linear',
-			    easingcss3: 'ease',
-			    scrollBar:true
-			  });
-		}
-		new WOW().init();
-
-		//Скрипт меню и вывода блоков
+//Скрипт меню и вывода блоков
 		function activeBlock(){
 			var a_block = $("#nav").find(".active").attr('data-category');
 			$('#banner .description').each(function(){
@@ -78,7 +64,53 @@
 			});
 			
 		}
-		activeBlock();
+		//Полноэкранный скроллинг
+		
+				var doFullpage = $body.outerWidth();
+		        if (doFullpage > 737) {
+					$('#fullpage').fullpage({
+						anchors: ['block1', 'block2', 'block3', 'block4'],
+			            css3: true,
+			            scrollingSpeed: 1000,
+					    easing: 'linear',
+					    easingcss3: 'ease',
+					    scrollBar:true
+					});
+					activeBlock();
+				} else {
+					$("#owl-demo").owlCarousel({
+				      slideSpeed : 300,
+				      paginationSpeed : 400,
+				      singleItem : true,
+				      itemsMobile : true
+
+				      // "singleItem:true" is a shortcut for:
+				      // items : 1, 
+				      // itemsDesktop : true,
+				      // itemsDesktopSmall : true,
+				      // itemsTablet: true,
+
+					});
+				}
+
+				
+				
+
+				var owl = $('.owl-carousel');
+				$(window).resize(function(){
+					if ($('body').outerWidth() > 737) {
+						$('#owl-demo').removeClass('owl-theme');
+					} else {
+						
+						$('#owl-demo').addClass('owl-theme');
+						owl.trigger('resize.owl.carousel');
+					}
+				});
+		
+
+		
+		new WOW().init();
+		
 		
 		//Бегунок для меню
 		var style = 'easeOutExpo';

@@ -353,7 +353,7 @@
 					outline: none;
 					text-align: center;
 				}
-				input[type="submit"]{
+				.submit {
 					display: inline-block;
 					background: #0f5499;
 					border-radius: 1.5em;
@@ -1613,6 +1613,10 @@
 				line-height: 1.65em;
 			}
 
+			#header {
+
+			}
+
 			.tweet {
 				text-align: center;
 			}
@@ -1626,17 +1630,6 @@
 
 			#footer {
 				padding: 4em 2em 4em 2em;
-			}
-
-		/* Carousel */
-
-			.carousel {
-				padding: 1.25em 0 1.25em 0;
-
-				article {
-					width: 18em;
-					margin: 0 1em 0 0;
-				}
 			}
 
 	}

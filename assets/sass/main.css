@@ -2262,7 +2262,10 @@ body.homepage #banner {
 
   /* Footer */
   #footer {
-    padding: 4em 2em 4em 2em; } }
+    padding: 4em 2em 4em 2em; }
+
+  #banner .button {
+    font-size: 0.8em; } }
 @media screen and (max-width: 736px) {
   /* Basic */
   html, body {

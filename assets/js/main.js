@@ -120,6 +120,7 @@
 				$('.item').show();	
 				$('.download').parent().hide().removeClass('owl-item');
 				$('.download-section').show();
+				$('#banner').reload();
 			}
 			$('.owl-page').last().hide();
 		});
@@ -147,6 +148,19 @@
 		    $('.preloader').css({
 		        height: $(window).height() + 'px'
 		    });
+		    if ($('body').outerWidth() > 737) {
+			    $('.owl-wrapper-outer').css({
+			        width: ($(window).width() / 3)+ 'px'
+			    });
+			} else if ($('body').outerWidth() > 480){
+				 $('.owl-wrapper-outer').css({
+			        width: ($(window).width() / 2)+ 'px'
+			    });
+			} else {
+				$('.owl-wrapper-outer').css({
+			        width: ($(window).width() / 1.3)+ 'px'
+			    });
+			}
 		}
 		setHeiHeight(); // устанавливаем высоту окна при первой загрузке страницы
 		$(window).resize( setHeiHeight ); // обновляем при изменении размеров окна

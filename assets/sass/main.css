@@ -2265,7 +2265,8 @@ body.homepage #banner {
     padding: 4em 2em 4em 2em; }
 
   #banner .button {
-    font-size: 0.8em; } }
+    font-size: 0.8em;
+    line-height: 100%; } }
 @media screen and (max-width: 736px) {
   /* Basic */
   html, body {

@@ -900,10 +900,17 @@
 				}
 			}
 		}
-		.row > article p {
-		    font-size: 0.82em;
-		    text-align: center;
-		    padding-top:0;
+		.row {
+			> article {
+				p {
+				    font-size: 0.82em;
+				    text-align: center;
+				    padding-top:0;
+				}
+				a img {
+		    		max-height: 130px;
+				}
+			}
 		}
 
 		#footer .row > #log-f {

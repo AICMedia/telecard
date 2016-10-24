@@ -2212,6 +2212,8 @@ body.homepage #banner {
     font-size: 0.82em;
     text-align: center;
     padding-top: 0; }
+  .row > article a img {
+    max-height: 130px; }
 
   #footer .row > #log-f {
     padding-left: 1.5em; }

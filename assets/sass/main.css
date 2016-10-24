@@ -2082,7 +2082,7 @@ body.homepage.is-loading #header:after {
     #banner .inner .description {
       display: table-cell;
       vertical-align: middle;
-      padding-left: 10%; }
+      padding-left: 1.5em; }
   #banner header {
     display: inline-block; }
     #banner header > p {

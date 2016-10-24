@@ -137,6 +137,19 @@
 
 		$('.scrolly').scrolly(); // Scrolly кнопки
 
+		function setHeiHeight() {
+		    $('#header').css({
+		        height: $(window).height() - ($(window).height() / 4.5) + 'px'
+		    });
+		    $('#banner').css({
+		        height: $(window).height() + 'px'
+		    });
+		    $('.preloader').css({
+		        height: $(window).height() + 'px'
+		    });
+		}
+		setHeiHeight(); // устанавливаем высоту окна при первой загрузке страницы
+		$(window).resize( setHeiHeight ); // обновляем при изменении размеров окна
 	});
 
 })(jQuery);

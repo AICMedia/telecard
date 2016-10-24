@@ -1761,7 +1761,8 @@ section, article {
     display: block;
     margin-bottom: 1.4em; }
     .row > article a img {
-      height: 90%; }
+      height: 90%;
+      max-height: 150px; }
   .row > article input[type="text"] {
     line-height: 0;
     border: 2px solid #e6e6e6;
@@ -2037,6 +2038,12 @@ body.homepage.is-loading #header:after {
 /* Banner */
 #banner {
   position: relative;
+  background: #155993;
+  background: -moz-linear-gradient(#155993, #064277);
+  background: -webkit-linear-gradient(#155993, #064277);
+  background: -o-linear-gradient(#155993, #064277);
+  background: -ms-linear-gradient(#155993, #064277);
+  background: linear-gradient(#155993, #064277);
   background-image: linear-gradient(#155993, #064277);
   background-size: 100%;
   background-position: center center;
@@ -2169,6 +2176,9 @@ body.homepage #banner {
   h2 {
     font-size: 2.2em; }
 
+  .menu {
+    height: 75px; }
+
   .header-right {
     display: none; }
 
@@ -2200,7 +2210,8 @@ body.homepage #banner {
 
   .row > article p {
     font-size: 0.82em;
-    text-align: center; }
+    text-align: center;
+    padding-top: 0; }
 
   #footer .row > #log-f {
     padding-left: 1.5em; }

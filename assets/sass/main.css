@@ -226,9 +226,6 @@ body {
 .row.\30 \25  > * {
   padding: 0px 0 0 0; }
 
-.row.\30 \25 {
-  margin: 0px 0 -1px 0px; }
-
 .row.uniform.\30 \25  > * {
   padding: 0px 0 0 0px; }
 
@@ -237,9 +234,6 @@ body {
 
 .row > * {
   padding: 48px 0 0 0; }
-
-.row {
-  margin: -48px 0 -1px -48px; }
 
 .row.uniform > * {
   padding: 48px 0 0 48px; }
@@ -250,9 +244,6 @@ body {
 .row.\32 00\25  > * {
   padding: 96px 0 0 0; }
 
-.row.\32 00\25 {
-  margin: -96px 0 -1px -96px; }
-
 .row.uniform.\32 00\25  > * {
   padding: 96px 0 0 96px; }
 
@@ -261,9 +252,6 @@ body {
 
 .row.\31 50\25  > * {
   padding: 72px 0 0 0; }
-
-.row.\31 50\25 {
-  margin: -72px 0 -1px -72px; }
 
 .row.uniform.\31 50\25  > * {
   padding: 72px 0 0 72px; }
@@ -274,9 +262,6 @@ body {
 .row.\35 0\25  > * {
   padding: 24px 0 0 0; }
 
-.row.\35 0\25 {
-  margin: -24px 0 -1px -24px; }
-
 .row.uniform.\35 0\25  > * {
   padding: 24px 0 0 24px; }
 
@@ -285,9 +270,6 @@ body {
 
 .row.\32 5\25  > * {
   padding: 12px 0 0 0; }
-
-.row.\32 5\25 {
-  margin: -12px 0 -1px -12px; }
 
 .row.uniform.\32 5\25  > * {
   padding: 12px 0 0 12px; }
@@ -406,9 +388,6 @@ body {
   .row > * {
     padding: 48px 0 0 0; }
 
-  .row {
-    margin: -48px 0 -1px -48px; }
-
   .row.uniform > * {
     padding: 48px 0 0 48px; }
 
@@ -417,9 +396,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 96px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -96px 0 -1px -96px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 96px 0 0 96px; }
@@ -430,9 +406,6 @@ body {
   .row.\31 50\25  > * {
     padding: 72px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -72px 0 -1px -72px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 72px 0 0 72px; }
 
@@ -442,9 +415,6 @@ body {
   .row.\35 0\25  > * {
     padding: 24px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -24px 0 -1px -24px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 24px 0 0 24px; }
 
@@ -453,9 +423,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 12px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -12px 0 -1px -12px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 12px 0 0 12px; }
@@ -573,9 +540,6 @@ body {
   .row > * {
     padding: 48px 0 0 0; }
 
-  .row {
-    margin: -48px 0 -1px -48px; }
-
   .row.uniform > * {
     padding: 48px 0 0 48px; }
 
@@ -584,9 +548,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 96px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -96px 0 -1px -96px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 96px 0 0 96px; }
@@ -597,9 +558,6 @@ body {
   .row.\31 50\25  > * {
     padding: 72px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -72px 0 -1px -72px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 72px 0 0 72px; }
 
@@ -609,9 +567,6 @@ body {
   .row.\35 0\25  > * {
     padding: 24px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -24px 0 -1px -24px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 24px 0 0 24px; }
 
@@ -620,9 +575,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 12px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -12px 0 -1px -12px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 12px 0 0 12px; }
@@ -740,9 +692,6 @@ body {
   .row > * {
     padding: 36px 0 0 0; }
 
-  .row {
-    margin: -36px 0 -1px -36px; }
-
   .row.uniform > * {
     padding: 36px 0 0 36px; }
 
@@ -751,9 +700,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 72px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -72px 0 -1px -72px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 72px 0 0 72px; }
@@ -764,9 +710,6 @@ body {
   .row.\31 50\25  > * {
     padding: 54px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -54px 0 -1px -54px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 54px 0 0 54px; }
 
@@ -776,9 +719,6 @@ body {
   .row.\35 0\25  > * {
     padding: 18px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -18px 0 -1px -18px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 18px 0 0 18px; }
 
@@ -787,9 +727,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 9px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -9px 0 -1px -9px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 9px 0 0 9px; }
@@ -907,9 +844,6 @@ body {
   .row > * {
     padding: 32px 0 0 0; }
 
-  .row {
-    margin: -32px 0 -1px -32px; }
-
   .row.uniform > * {
     padding: 32px 0 0 32px; }
 
@@ -918,9 +852,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 64px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -64px 0 -1px -64px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 64px 0 0 64px; }
@@ -931,9 +862,6 @@ body {
   .row.\31 50\25  > * {
     padding: 48px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -48px 0 -1px -48px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 48px 0 0 48px; }
 
@@ -943,9 +871,6 @@ body {
   .row.\35 0\25  > * {
     padding: 16px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -16px 0 -1px -16px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 16px 0 0 16px; }
 
@@ -954,9 +879,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 8px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -8px 0 -1px -8px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 8px 0 0 8px; }
@@ -1074,9 +996,6 @@ body {
   .row > * {
     padding: 32px 0 0 0; }
 
-  .row {
-    margin: -32px 0 -1px -32px; }
-
   .row.uniform > * {
     padding: 32px 0 0 32px; }
 
@@ -1085,9 +1004,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 64px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -64px 0 -1px -64px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 64px 0 0 64px; }
@@ -1098,9 +1014,6 @@ body {
   .row.\31 50\25  > * {
     padding: 48px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -48px 0 -1px -48px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 48px 0 0 48px; }
 
@@ -1110,9 +1023,6 @@ body {
   .row.\35 0\25  > * {
     padding: 16px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -16px 0 -1px -16px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 16px 0 0 16px; }
 
@@ -1121,9 +1031,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 8px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -8px 0 -1px -8px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 8px 0 0 8px; }
@@ -1241,9 +1148,6 @@ body {
   .row > * {
     padding: 20px 0 0 0; }
 
-  .row {
-    margin: -20px 0 -1px -20px; }
-
   .row.uniform > * {
     padding: 20px 0 0 20px; }
 
@@ -1252,9 +1156,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 40px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -40px 0 -1px -40px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 40px 0 0 40px; }
@@ -1265,9 +1166,6 @@ body {
   .row.\31 50\25  > * {
     padding: 30px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -30px 0 -1px -30px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 30px 0 0 30px; }
 
@@ -1277,9 +1175,6 @@ body {
   .row.\35 0\25  > * {
     padding: 10px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -10px 0 -1px -10px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 10px 0 0 10px; }
 
@@ -1288,9 +1183,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 5px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -5px 0 -1px -5px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 5px 0 0 5px; }
@@ -1408,9 +1300,6 @@ body {
   .row > * {
     padding: 20px 0 0 0; }
 
-  .row {
-    margin: -20px 0 -1px -20px; }
-
   .row.uniform > * {
     padding: 20px 0 0 20px; }
 
@@ -1419,9 +1308,6 @@ body {
 
   .row.\32 00\25  > * {
     padding: 40px 0 0 0; }
-
-  .row.\32 00\25 {
-    margin: -40px 0 -1px -40px; }
 
   .row.uniform.\32 00\25  > * {
     padding: 40px 0 0 40px; }
@@ -1432,9 +1318,6 @@ body {
   .row.\31 50\25  > * {
     padding: 30px 0 0 0; }
 
-  .row.\31 50\25 {
-    margin: -30px 0 -1px -30px; }
-
   .row.uniform.\31 50\25  > * {
     padding: 30px 0 0 30px; }
 
@@ -1444,9 +1327,6 @@ body {
   .row.\35 0\25  > * {
     padding: 10px 0 0 0; }
 
-  .row.\35 0\25 {
-    margin: -10px 0 -1px -10px; }
-
   .row.uniform.\35 0\25  > * {
     padding: 10px 0 0 10px; }
 
@@ -1455,9 +1335,6 @@ body {
 
   .row.\32 5\25  > * {
     padding: 5px 0 0 0; }
-
-  .row.\32 5\25 {
-    margin: -5px 0 -1px -5px; }
 
   .row.uniform.\32 5\25  > * {
     padding: 5px 0 0 5px; }
@@ -1621,12 +1498,13 @@ body {
     float: right;
     box-sizing: border-box; }
     .menu .header-right ul {
-      height: inherit; }
+      height: inherit;
+      float: right; }
     .menu .header-right li {
       display: inline-block;
       font-size: 100%;
       line-height: 100%;
-      padding: 1em;
+      padding: 1em 0 1em 2.5em;
       vertical-align: middle;
       height: inherit;
       font-family: "MyriadProSemiBold"; }
@@ -1655,11 +1533,9 @@ body {
     display: inline-block; }
   body .logofooter {
     background: url("../img/GPB-logo_blue.svg") no-repeat;
-    width: 245px;
-    height: 100px;
-    display: inline-block;
-    margin-bottom: -40px;
-    margin-top: -20px; }
+    width: 225px;
+    height: 50px;
+    display: inline-block; }
   body.is-loading *, body.is-loading *:after, body.is-loading *:before {
     -moz-transition: none !important;
     -webkit-transition: none !important;
@@ -1735,7 +1611,7 @@ section, article {
   section > :last-child, section:last-child, article > :last-child, article:last-child {
     margin-bottom: 0; }
   section.special > header, article.special > header {
-    margin: 0 0 4em 0; }
+    margin: 0; }
   section.special > header, section.special > footer, article.special > header, article.special > footer {
     text-align: center; }
     section.special > header img.logo, section.special > footer img.logo, article.special > header img.logo, article.special > footer img.logo {
@@ -1749,8 +1625,6 @@ section, article {
   text-align: center;
   vertical-align: top;
   display: inline-block; }
-  .row > article .row {
-    padding: 0 2em 0 4em; }
   .row > article p {
     margin-bottom: 2em;
     text-align: left;
@@ -1783,7 +1657,7 @@ section, article {
   text-align: left;
   vertical-align: top;
   display: inline-block;
-  padding: 2em 0 0 4.2em; }
+  padding: 4em 1em 0 2em; }
   #documents .row > article p, #footer .row > article p {
     text-align: left;
     margin-bottom: 0; }
@@ -1822,32 +1696,30 @@ section, article {
     background-position: top center;
     margin-right: 1em; }
 
-#footer > .row {
-  margin: -48px -48px -1px -48px; }
-  #footer > .row article {
-    padding: 0 3em 0 2em;
-    vertical-align: middle; }
-    #footer > .row article p {
-      color: #000;
-      opacity: 0.4;
-      line-height: 1.5em; }
-    #footer > .row article .right {
-      float: right;
-      padding-left: 1em; }
-      #footer > .row article .right span {
-        font-family: "MyriadProSemibold";
-        font-size: 2.2em;
-        color: #000; }
-    #footer > .row article .description {
-      padding-left: 76px;
-      display: inline-block; }
-  #footer > .row .center > p {
-    margin-top: 3em; }
-  #footer > .row .logo {
-    float: left;
-    margin-right: 2em; }
-  #footer > .row p {
-    font-size: 0.7em; }
+#footer > .row article {
+  padding: 0;
+  vertical-align: middle; }
+  #footer > .row article p {
+    color: #000;
+    opacity: 0.4;
+    line-height: 1.5em; }
+  #footer > .row article .right {
+    float: right; }
+    #footer > .row article .right span {
+      font-family: "MyriadProSemibold";
+      font-size: 2.2em; }
+  #footer > .row article .description {
+    padding-left: 60px;
+    display: inline-block;
+    margin-top: -15px;
+    font-size: 0.8em; }
+#footer > .row .center > p {
+  margin-top: 3em; }
+#footer > .row .logo {
+  float: left;
+  margin-right: 2em; }
+#footer > .row p {
+  font-size: 0.7em; }
 
 header {
   margin: 0 0 2em 0; }
@@ -1935,7 +1807,6 @@ button,
   background-attachment: fixed;
   color: #fff;
   text-align: left;
-  padding: 0em 7em 2em;
   cursor: default; }
   #header:before {
     content: '';
@@ -1950,7 +1821,8 @@ button,
     z-index: 1;
     margin: 0;
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    width: 1200px; }
     #header .inner .logo {
       margin-bottom: 1.7em; }
       #header .inner .logo img {
@@ -1972,7 +1844,7 @@ button,
 
 body.homepage #header {
   height: 75vh;
-  min-height: 35em;
+  min-height: 15em;
   display: table;
   width: 100%; }
   body.homepage #header h1 {
@@ -2010,17 +1882,19 @@ body.homepage.is-loading #header:after {
   height: 100px; }
   #nav > ul {
     position: relative;
-    display: inline-block;
-    margin: 0;
-    height: inherit; }
+    width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+    display: inline-flex;
+    justify-content: space-between; }
     #nav > ul > li {
       height: 50%;
       display: inline-block;
       vertical-align: middle;
       cursor: pointer;
       list-style: none;
-      margin: 0px 1.35em 0 1.35em;
       padding: 0.2em 0;
+      margin: 0 1em;
       border: solid 3px transparent;
       font-family: "MyriadPro";
       opacity: 0.5;
@@ -2123,7 +1997,7 @@ body.homepage #banner {
 /* Footer */
 #footer {
   position: relative;
-  padding: 6em 0 6em 0; }
+  padding: 6em 0 6em 2em; }
 
 /* Wide */
 @media screen and (max-width: 1680px) {
@@ -2132,6 +2006,10 @@ body.homepage #banner {
     line-height: 1.75em; } }
 /* Normal */
 @media screen and (max-width: 1370px) {
+  body, input, textarea, select {
+    font-size: 12pt;
+    line-height: 1.7em; }
+
   #banner .inner .image .phone {
     width: 200px;
     height: 420px;
@@ -2144,7 +2022,10 @@ body.homepage #banner {
   #banner .inner .image img {
     top: 48px;
     left: 8px;
-    max-height: 323px; } }
+    max-height: 323px; }
+
+  .menu .center, #header .inner, #nav > ul {
+    width: 940px; } }
 @media screen and (max-width: 1280px) {
   body, input, textarea, select {
     font-size: 12pt;
@@ -2158,9 +2039,6 @@ body.homepage #banner {
   /* Header */
   #header {
     background-attachment: scroll; }
-    #header .inner {
-      padding-left: 2em;
-      padding-right: 2em; }
 
   /* Banner */
   #banner {
@@ -2173,6 +2051,9 @@ body.homepage #banner {
     padding-right: 2em; } }
 /* Narrow */
 @media screen and (max-width: 960px) {
+  .menu .center, #header .inner, #nav > ul {
+    width: 740px; }
+
   h2 {
     font-size: 2.2em; }
 
@@ -2185,7 +2066,7 @@ body.homepage #banner {
   #documents {
     margin-bottom: 4em; }
     #documents .row {
-      margin: 0 40px 0 0; }
+      margin: 0 1.3em; }
       #documents .row > article {
         padding: 2em 0 0 3em; }
         #documents .row > article .description p {
@@ -2196,7 +2077,7 @@ body.homepage #banner {
           font-size: 0.85em; }
 
   #footer .row > article {
-    padding: 2em 0 0 3em; }
+    padding: 2em 0 0 2em; }
     #footer .row > article .description p {
       font-size: 0.7em;
       line-height: 1.2em;
@@ -2205,8 +2086,6 @@ body.homepage #banner {
       font-size: 0.85em; }
     #footer .row > article .right span {
       font-size: 1.5em; }
-  #footer .row .center > p {
-    padding: 0 4em 0 1em; }
 
   .row > article p {
     font-size: 0.82em;
@@ -2214,9 +2093,6 @@ body.homepage #banner {
     padding-top: 0; }
   .row > article a img {
     max-height: 130px; }
-
-  #footer .row > #log-f {
-    padding-left: 1.5em; }
 
   #nav > ul > li {
     margin: 0px 1em 0 1em;
@@ -2299,6 +2175,15 @@ body.homepage #banner {
     top: 3em;
     margin-bottom: 6em; }
 
+  .menu .center, #header .inner, #nav > ul {
+    width: 100%;
+    padding: 0 3em; }
+
+  .menu .header-left {
+    width: 100%; }
+  .menu .logo {
+    width: 100%; }
+
   /* Section/Article */
   section, article {
     margin-bottom: 2em; }
@@ -2324,11 +2209,6 @@ body.homepage #banner {
       #nav > ul > li {
         display: block; }
 
-  /* Off-Canvas Navigation */
-  body .logofooter {
-    margin-left: 10px;
-    margin-right: 1em; }
-
   /* Wrapper */
   .wrapper {
     padding: 3em 1em 3em 1em; }
@@ -2339,12 +2219,6 @@ body.homepage #banner {
   #header {
     background-attachment: scroll;
     padding: 2.5em 0 0 0; }
-    #header .inner {
-      padding-top: 1.5em;
-      padding-left: 1em;
-      padding-right: 1em;
-      margin: 0 auto;
-      display: table; }
     #header header > p {
       font-size: 1em; }
     #header h1 {
@@ -2403,7 +2277,16 @@ body.homepage #banner {
     #footer .row .center span {
       display: none; }
     #footer .row article .right span {
-      font-size: 1.7em; } }
+      font-size: 1.7em;
+      line-height: 1.8em; }
+
+  #documents .row {
+    margin: 0 1.3em 0 0; }
+    #documents .row > article {
+      padding: 2em 0 0 2em; }
+
+  #footer .row > article {
+    padding: 1em 0.5em 0 1em; } }
 @media screen and (max-width: 480px) {
   #header .inner footer {
     text-align: center; }

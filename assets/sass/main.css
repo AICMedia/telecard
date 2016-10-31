@@ -2182,7 +2182,13 @@ body.homepage #banner {
   .menu .header-left {
     width: 100%; }
   .menu .logo {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
+    .menu .logo img {
+      width: 80%;
+      height: 80%;
+      max-width: 100%;
+      max-height: 100%; }
 
   /* Section/Article */
   section, article {

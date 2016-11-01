@@ -1970,6 +1970,7 @@ body.homepage.is-loading #header:after {
   #banner header {
     display: inline-block; }
     #banner header > p {
+      width: 70%;
       font-size: 1em;
       margin: 0; }
   #banner h1 {
@@ -2190,11 +2191,6 @@ body.homepage #banner {
       max-width: 100%;
       max-height: 100%; }
 
-  section .right-side {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 0em; }
-
   /* Section/Article */
   section, article {
     margin-bottom: 2em; }
@@ -2202,6 +2198,10 @@ body.homepage #banner {
       padding: 0 2em; }
     section:last-child, article:last-child {
       margin-bottom: 0; }
+    section .right-side, article .right-side {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 0em; }
 
   .row > section, .row > article {
     margin-bottom: 2em; }
@@ -2268,6 +2268,8 @@ body.homepage #banner {
         #banner .inner .description header {
           display: block;
           padding: 0 0 0 1em; }
+          #banner .inner .description header > p {
+            width: 85%; }
         #banner .inner .description footer {
           text-align: left;
           padding-left: 1em; }

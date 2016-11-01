@@ -24,7 +24,7 @@
 			$(".preloader").fadeOut(600);
 			$('#header .inner').addClass("animated fadeInDown");
 		});
-
+		/*
 		var isiPad = navigator.userAgent.match(/iPad/i) != null;
 	    if ((navigator.platform.indexOf("iPhone") != -1) || (navigator.platform.indexOf("iPod") != -1)){
 	    	window.location.replace("https://appsto.re/ru/lbWV6.i");
@@ -32,7 +32,7 @@
 
 	    if (/Android/i.test(navigator.userAgent)) {
     		window.location.replace("https://play.google.com/store/apps/details?id=ru.bpc.mobilebank.android");
-  		}
+  		}*/
 
 	//Скрипт меню и вывода блоков
 		function activeBlock(){

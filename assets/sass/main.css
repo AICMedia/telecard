@@ -2156,7 +2156,10 @@ body.homepage #banner {
 
   #banner .button {
     font-size: 0.8em;
-    line-height: 2.6em; } }
+    line-height: 2.6em; }
+
+  .inner header > p {
+    width: 60%; } }
 @media screen and (max-width: 736px) {
   /* Basic */
   html, body {

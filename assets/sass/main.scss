@@ -1009,6 +1009,14 @@
 			    line-height:2.6em;
 			}
 
+			.inner{
+				header{
+					> p {
+						width:60%;
+					}
+				}
+			}
+
 	}
 
 	@include breakpoint(mobile) {

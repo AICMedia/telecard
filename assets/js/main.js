@@ -54,7 +54,7 @@
 			} 
 		});
 
-		$('.image img').each(function(){
+		$('.phone img').each(function(){
 			var c_block = $(this);
 			var sh_block = $(this).attr('data-category');
 

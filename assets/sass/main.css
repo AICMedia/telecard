@@ -1945,8 +1945,8 @@ body.homepage.is-loading #header:after {
       text-align: center;
       vertical-align: middle; }
       #banner .inner .image .phone {
-        width: 220px;
-        height: 450px;
+        width: 226px;
+        height: 475px;
         background: url("../img/phone.png") no-repeat;
         background-size: contain;
         display: block;
@@ -1955,7 +1955,7 @@ body.homepage.is-loading #header:after {
         right: 20%; }
       #banner .inner .image img {
         position: absolute;
-        top: 45px;
+        top: 62px;
         left: 10px;
         max-height: 343px;
         display: inline;
@@ -2011,8 +2011,8 @@ body.homepage #banner {
     line-height: 1.7em; }
 
   #banner .inner .image .phone {
-    width: 200px;
-    height: 420px;
+    width: 212px;
+    height: 444px;
     background: url("../img/phone.png") no-repeat;
     background-size: contain;
     display: block;
@@ -2020,9 +2020,9 @@ body.homepage #banner {
     top: 0;
     right: 20%; }
   #banner .inner .image img {
-    top: 48px;
+    top: 55px;
     left: 8px;
-    max-height: 323px; }
+    max-height: 322px; }
 
   .menu .center, #header .inner, #nav > ul {
     width: 940px; } }
@@ -2108,9 +2108,9 @@ body.homepage #banner {
     width: 175px;
     right: 0%; }
     #banner .inner .image .phone img {
-      max-height: 242px;
-      top: 35px;
-      left: 7px; }
+      max-height: 230px;
+      top: 40px;
+      left: 6px; }
   #banner header > p {
     font-size: 0.7em; }
 

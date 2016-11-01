@@ -1618,6 +1618,10 @@ section, article {
       box-shadow: 0px 0px 10px rgba(30, 48, 85, 0.2);
       border-radius: 1.15em;
       margin-bottom: 1.5em; }
+  section .right-side, article .right-side {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 3em; }
 
 .row > section, .row > article {
   margin-bottom: 0; }
@@ -1962,8 +1966,7 @@ body.homepage.is-loading #header:after {
         width: auto; }
     #banner .inner .description {
       display: table-cell;
-      vertical-align: middle;
-      padding-left: 1.5em; }
+      vertical-align: middle; }
   #banner header {
     display: inline-block; }
     #banner header > p {
@@ -2098,11 +2101,8 @@ body.homepage #banner {
     margin: 0px 1em 0 1em;
     font-size: 0.8em; }
 
-  #banner .inner .description {
-    padding-left: 2em;
-    padding-right: 2em; }
-    #banner .inner .description h1 {
-      font-size: 2em; }
+  #banner .inner .description h1 {
+    font-size: 2em; }
   #banner .inner .image .phone {
     height: 320px;
     width: 175px;
@@ -2189,6 +2189,11 @@ body.homepage #banner {
       height: 80%;
       max-width: 100%;
       max-height: 100%; }
+
+  section .right-side {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0em; }
 
   /* Section/Article */
   section, article {

@@ -264,6 +264,11 @@
 					}
 			}
 		}
+		.right-side {
+			display: table-cell;
+			vertical-align: middle;
+			padding-left: 3em;
+		}
 	}
 
 	.row > {
@@ -705,7 +710,6 @@
 			.description{
 				display: table-cell;
 				vertical-align: middle;
-				padding-left: 1.5em;
 			}
 		}
 
@@ -922,9 +926,6 @@
 		#banner{
 			.inner{
 				.description{
-					padding-left: 2em;
-					padding-right: 2em;
-
 					h1{
 						font-size: 2em;
 					}
@@ -1054,6 +1055,11 @@
 						max-height:100%;
 					}
 				}
+			}
+			section .right-side {
+				display: table-cell;
+				vertical-align: middle;
+				padding-left: 0em;
 			}
 
 		/* Section/Article */

@@ -2292,7 +2292,9 @@ body.homepage #banner {
     #footer .row .center span {
       display: none; }
     #footer .row article .right span {
-      font-size: 1.7em; }
+      font-size: 1.7em;
+      display: block;
+      float: left; }
 
   #documents .row {
     margin: 0 1.3em 0 0; }

@@ -2272,7 +2272,7 @@ body.homepage #banner {
           display: block;
           padding: 0 0 0 1em; }
           #banner .inner .description header > p {
-            width: 70%; }
+            width: 54%; }
         #banner .inner .description footer {
           text-align: left;
           padding-left: 1em; }
@@ -2313,7 +2313,7 @@ body.homepage #banner {
   #banner .inner .description header {
     padding: 0; }
     #banner .inner .description header > p {
-      width: 85%; }
+      width: 80%; }
   #banner .download {
     padding-left: 10px; } }
 

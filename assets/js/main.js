@@ -149,7 +149,7 @@
 			    });
 			} else {
 				$('.owl-wrapper-outer').css({
-			        width: ($(window).width() / 1.5)+ 'px'
+			        width: ($(window).width() / 1.4)+ 'px'
 			    });
 			}
 		}

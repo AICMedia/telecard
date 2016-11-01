@@ -1171,7 +1171,7 @@
 							display: block;
 							padding: 0 0 0 1em;
 							> p {
-								width:85%;
+								width:70%;
 							}
 						}
 						footer {
@@ -1252,6 +1252,9 @@
 				.description {
 					header {
 						padding:0;
+						> p {
+								width:85%;
+							}
 					}
 				}
 			}

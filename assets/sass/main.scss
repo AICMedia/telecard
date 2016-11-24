@@ -545,6 +545,7 @@
 			> p {
 				font-size: 1em;
 				margin: 0;
+				width: 60%;
 			}
 		}
 
@@ -1051,6 +1052,7 @@
 			}
 
 			.menu {
+				background: #75a6cb;
 				.header-left {
 					width: 100%;
 				}
@@ -1143,8 +1145,8 @@
 			body.homepage {
 				#header {
 					min-height: 0;
-					padding: 5.5em 0 5em 0;
-					background-image: url("../../assets/img/first-section-m.png");
+					padding: 0em 0 8em 0;
+					background-image: url("../../assets/img/mob_telekard.png");
 
 					&:before {
 						display: none;
@@ -1248,6 +1250,9 @@
 				footer {
 					text-align: center;
 				}
+				header > p {
+				    width: 100%;
+				}
 				p {
 					font-size:0.7em;
 				}
@@ -1270,5 +1275,8 @@
 			.download {
 				padding-left: 10px;
 			}
+		}
+		body.homepage #header h1 {
+		    font-size: 1.5em;
 		}
 	}

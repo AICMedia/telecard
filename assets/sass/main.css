@@ -1835,7 +1835,8 @@ button,
     display: inline-block; }
     #header header > p {
       font-size: 1em;
-      margin: 0; }
+      margin: 0;
+      width: 60%; }
   #header h1 {
     color: #fff;
     font-size: 2.5em;
@@ -2183,16 +2184,18 @@ body.homepage #banner {
     width: 100%;
     padding: 0 3em; }
 
-  .menu .header-left {
-    width: 100%; }
-  .menu .logo {
-    width: 100%;
-    text-align: center; }
-    .menu .logo img {
-      width: 80%;
-      height: 80%;
-      max-width: 100%;
-      max-height: 100%; }
+  .menu {
+    background: #75a6cb; }
+    .menu .header-left {
+      width: 100%; }
+    .menu .logo {
+      width: 100%;
+      text-align: center; }
+      .menu .logo img {
+        width: 80%;
+        height: 80%;
+        max-width: 100%;
+        max-height: 100%; }
 
   /* Section/Article */
   section, article {
@@ -2240,8 +2243,8 @@ body.homepage #banner {
 
   body.homepage #header {
     min-height: 0;
-    padding: 5.5em 0 5em 0;
-    background-image: url("../../assets/img/first-section-m.png"); }
+    padding: 0em 0 8em 0;
+    background-image: url("../../assets/img/mob_telekard.png"); }
     body.homepage #header:before {
       display: none; }
     body.homepage #header h1 {
@@ -2306,6 +2309,8 @@ body.homepage #banner {
 @media screen and (max-width: 480px) {
   #header .inner footer {
     text-align: center; }
+  #header .inner header > p {
+    width: 100%; }
   #header .inner p {
     font-size: 0.7em; }
 
@@ -2316,6 +2321,9 @@ body.homepage #banner {
     #banner .inner .description header > p {
       width: 85%; }
   #banner .download {
-    padding-left: 10px; } }
+    padding-left: 10px; }
+
+  body.homepage #header h1 {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=main.css.map */

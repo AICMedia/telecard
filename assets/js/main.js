@@ -22,7 +22,7 @@
 
 		
 
-		$window.on('load', function() {
+		$(window).on('load', function() {
 			$(".preloader").fadeOut(600);
 			$('#header .inner').addClass("animated fadeInDown");
 		});

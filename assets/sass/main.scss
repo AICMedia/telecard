@@ -650,6 +650,7 @@
 
 	#banner {
 		position: relative;
+<<<<<<< HEAD
 		background: #155993;
 	    background: -moz-linear-gradient(#155993, #064277);
 	    background: -webkit-linear-gradient(#155993, #064277);
@@ -659,6 +660,10 @@
 		background-image: linear-gradient(#155993, #064277);
 		background-size: 100%;
 		background-position: center center;
+=======
+		background: url('../img/back.png') no-repeat;
+		background-size: cover;
+>>>>>>> feature
 		color: #fff;
 		text-align: left;
 		padding: 2em 7em;

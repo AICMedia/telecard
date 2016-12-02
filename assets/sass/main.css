@@ -1917,15 +1917,8 @@ body.homepage.is-loading #header:after {
 /* Banner */
 #banner {
   position: relative;
-  background: #155993;
-  background: -moz-linear-gradient(#155993, #064277);
-  background: -webkit-linear-gradient(#155993, #064277);
-  background: -o-linear-gradient(#155993, #064277);
-  background: -ms-linear-gradient(#155993, #064277);
-  background: linear-gradient(#155993, #064277);
-  background-image: linear-gradient(#155993, #064277);
-  background-size: 100%;
-  background-position: center center;
+  background: url("../img/back.png") no-repeat;
+  background-size: cover;
   color: #fff;
   text-align: left;
   padding: 2em 7em;

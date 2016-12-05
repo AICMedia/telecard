@@ -106,7 +106,6 @@
 				owl.trigger('refreshed.owl.carousel');
 		}
 
-		
 		$(window).resize(function(){
 			if ($('body').outerWidth() > 737) {
 				$('#owl-demo').removeClass('owl-theme');

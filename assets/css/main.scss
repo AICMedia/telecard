@@ -75,7 +75,7 @@
 	}
 	
 	.menu {
-		background:#02366c;
+		background:#122043;
 		color:white;
 		box-sizing: border-box;
 		position:relative;
@@ -502,7 +502,7 @@
 /* Header */
 	#header {
 		position: relative;
-		background-image: url('../../assets/img/first-section.png');
+		background-image: url('../../assets/img/first-section.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -650,7 +650,7 @@
 
 	#banner {
 		position: relative;
-		background: url('../img/back.png') no-repeat;
+		background: url('../img/back.jpg') no-repeat;
 		background-size: cover;
 		color: #fff;
 		text-align: left;
@@ -1139,7 +1139,7 @@
 				#header {
 					min-height: 0;
 					padding: 0em 0 8em 0;
-					background-image: url("../../assets/img/mob_telekard.png");
+					background-image: url("../../assets/img/mob_telekard.jpg");
 
 					&:before {
 						display: none;

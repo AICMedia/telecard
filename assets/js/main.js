@@ -89,13 +89,6 @@
 		      paginationSpeed : 400,
 		      singleItem : true,
 		      itemsMobile : true
-
-		      // "singleItem:true" is a shortcut for:
-		      // items : 1, 
-		      // itemsDesktop : true,
-		      // itemsDesktopSmall : true,
-		      // itemsTablet: true,
-
 			});
 			$('.owl-carousel').trigger('resize.owl.carousel');
 			$('.item').show();	
@@ -105,20 +98,24 @@
 		}
 
 		var owl = $('.owl-carousel');
+		function owl(){
+			$('#owl-demo').addClass('owl-theme');
+				owl.trigger('resize.owl.carousel');
+				owl.trigger('resized.owl.carousel');
+				owl.trigger('refresh.owl.carousel');
+				owl.trigger('refreshed.owl.carousel');
+		}
+
+		
 		$(window).resize(function(){
 			if ($('body').outerWidth() > 737) {
 				$('#owl-demo').removeClass('owl-theme');
 				activeBlock();
 			} else {
-				$('#owl-demo').addClass('owl-theme');
-				owl.trigger('resize.owl.carousel');
+				owl();
 				console.log($('.item').attr('class'));
-				$('.item').show();	
-				$('#banner').reload();
 			}
 		});
-		
-
 		
 		new WOW().init();
 		

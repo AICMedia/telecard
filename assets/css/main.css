@@ -2018,7 +2018,8 @@ body.homepage #banner {
     text-align: center;
     padding-top: 0; }
   .row > article a img {
-    max-height: 130px; }
+    max-height: 130px;
+    max-width: 130px; }
   #nav > ul > li {
     margin: 0px 1em 0 1em;
     font-size: 0.8em; }

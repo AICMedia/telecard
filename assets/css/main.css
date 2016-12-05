@@ -1573,6 +1573,14 @@ section, article {
       height: 90%;
       max-height: 150px;
       max-width: 150px; }
+  .row > article .b-qrcode {
+    text-align: center;
+    display: block;
+    margin-bottom: 1.4em; }
+    .row > article .b-qrcode img {
+      height: 90%;
+      max-height: 150px;
+      max-width: 150px; }
   .row > article input[type="text"] {
     line-height: 0;
     border: 2px solid #e6e6e6;

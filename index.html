@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="assets/css/animate.css" />
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
@@ -19,13 +20,14 @@
 			
 	<!--	<div id="fullpage">-->
 
-			<!--Menu-->
-			<div class="menu">
+			
+			<div class="menu" id="desctop-menu">
 				<div class="center">
 					<div class="header-left ">
 						<div class="logo">
 							<img src="assets/img/GPB-logo_white.svg"/>
 						</div>
+
 					</div>
 					<div class="header-right">
 						<ul>
@@ -36,6 +38,24 @@
 					</div>
 				</div>
 			</div>
+			<div class="mobile" id="mobile-menu">
+				<div class="mainContainer">
+					<header>
+						<a href="#" class="logo"><img src="assets/img/GPB-logo_white.svg"/></a>
+						<span  class="menuBtn">
+							<span class="lines"></span>
+						</span>
+						<nav class="mainMenu">
+							<ul>
+								<li><a href="#banner" class="scrolly">Доступные операции</a></li>
+								<li><a href="#features" class="scrolly">Скачать приложение</a></li>
+								<li><a href="#documents" class="scrolly">Документы и инструкции</a></li>
+							</ul>
+						</nav>
+					</header>
+				</div>
+			</div>
+			
 			<!-- Header -->
 			<section id="header" class="section" data-anchor="block1">
 				<!-- Inner -->
@@ -49,16 +69,15 @@
 
 			<!-- Banner -->
 			<section id="banner" class="section" data-anchor="block2">
-			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="active" data-category="uslugi"><a href="#banner" class="scrolly">Оплачивайте услуги</a></li>
-						<li data-category="transfer"><a href="#banner" class="scrolly">Переводите деньги</a></li>
-						<li data-category="bankomats"><a href="#banner" class="scrolly">Находите банкоматы</a></li>
-						<li data-category="notice"><a href="#banner" class="scrolly">Смотрите выписки</a></li>
-						<li data-category="cards"><a href="#banner" class="scrolly">Ваши карты</a></li>
-					</ul>
-				</nav>
+					<nav id="nav">
+						<ul class="links-container">
+							<li data-category="uslugi" class="nav-link active">Оплачивайте услуги</li>
+							<li data-category="transfer" class="nav-link">Переводите деньги</li>
+							<li data-category="bankomats" class="nav-link">Находите банкоматы</li>
+							<li data-category="notice" class="nav-link">Смотрите выписки</li>
+							<li data-category="cards" class="nav-link">Ваши карты</li>
+						</ul>
+					</nav>
 				
 
 				<div class="12u inner">
@@ -72,43 +91,47 @@
 						</div>
 					</div>
 					
-					<div class="right-side">
-					<div id="owl-demo" class="6u 12u(narrow) owl-carousel">
-						<div class="description item" data-category="uslugi">
-							<header>
-								<h1>Оплачивайте </br> услуги</h1>
-								<p>Платите за мобильную связь, интернет и другие услуги через мобильное приложение без комиссий и экономьте свое время</p>
-							</header>
+					
+					
+
+				    <article id="pages-container">
+						<div id="pages-container-inner">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<h1>Оплачивайте </br> услуги</h1>
+				                	<p>Платите за мобильную связь, интернет и другие услуги через мобильное приложение без комиссий и экономьте свое время</p>
+								</div>
+								<div class="swiper-slide">
+									<h1>Переводите </br> деньги</h1>
+				                	<p>Моментально переводите деньги с карты на карту Газпромбанка и других банков</p>
+								</div>
+								<div class="swiper-slide">
+									<h1>Находите </br> банкоматы</h1>
+				                	<p>Находите ближайшие к вам офисы и банкоматы Газпромбанка </p>
+								</div>
+								<div class="swiper-slide">
+									<h1>Смотрите </br> выписки</h1>
+				                	<p>Смотрите историю ваших трат на экране телефона</p>
+								</div>
+								<div class="swiper-slide"><h1>Ваши карты</h1>
+				                <p>Настраивайте список карт так, как Вам нужно, и управляйте ими</p>
+				                </div>
+							</div>
 						</div>
-						<div class="description item" data-category="transfer">
-							<header>
-								<h1>Переводите </br> деньги</h1>
-								<p>Моментально переводите деньги с карты на карту Газпромбанка и других банков</p>
-							</header>
+						<div class="swiper-pagination"></div>
+						<div class="12u download-section">
+							<a href="#features" class="button circled scrolly">Скачать приложение</a>
 						</div>
-						<div class="description item" data-category="bankomats">
-							<header>
-								<h1>Находите </br> банкоматы</h1>
-								<p>Находите ближайшие к вам офисы и банкоматы Газпромбанка </p>
-							</header>
-						</div>
-						<div class="description item" data-category="notice">
-							<header>
-								<h1>Смотрите </br> выписки</h1>
-								<p>Смотрите историю ваших трат на экране телефона</p>
-							</header>
-						</div>
-						<div class="description item" data-category="cards">
-							<header>
-								<h1>Ваши карты</h1>
-								<p>Настраивайте список карт так, как Вам нужно, и управляйте ими</p>
-							</header>
-						</div>
-					</div>
-					<div class="12u download-section">
-						<a href="#features" class="button circled scrolly">Скачать приложение</a>
-					</div>
-				</div>
+					</article>
+				        
+				    </div>
+				    <!-- Swiper JS -->
+				    <script src="assets/js/swiper.min.js"></script>
+
+
+				    <!-- Initialize Swiper -->
+						
+				
 					
 			</section>
 
@@ -212,6 +235,7 @@
 				</section>
 
 				<section id="footer" class="container special">
+
 					<div class="row">
 						<article class="6u 12u(mobile)" id="log-f">
 							<div class="logofooter"/></div>
@@ -232,6 +256,7 @@
 					</div>
 				</section>
 			</div>
+			
 	<!--</div>-->
 
 	<!-- Scripts -->

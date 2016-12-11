@@ -1946,7 +1946,10 @@ body.homepage #banner {
 @media screen and (max-width: 1680px) {
   body, input, textarea, select {
     font-size: 14pt;
-    line-height: 1.75em; } }
+    line-height: 1.75em; }
+  #pages-container {
+    height: 260px;
+    width: 350px; } }
 
 /* Normal */
 @media screen and (max-width: 1370px) {
@@ -1995,8 +1998,10 @@ body.homepage #banner {
     width: 740px; }
   h2 {
     font-size: 2.2em; }
-  .menu {
-    height: 75px; }
+  #desctop-menu {
+    display: none; }
+  #mobile-menu {
+    display: block; }
   .header-right {
     display: none; }
   #documents {
@@ -2033,9 +2038,18 @@ body.homepage #banner {
     font-size: 0.8em; }
   #banner .inner .description h1 {
     font-size: 2em; }
+  #banner .inner #pages-container {
+    height: 170px;
+    width: 280px;
+    margin: 3em 0 2em; }
+    #banner .inner #pages-container h1 {
+      font-size: 1.5em; }
+    #banner .inner #pages-container p {
+      font-size: 14px;
+      line-height: 20px; }
   #banner .inner .image .phone {
     height: 320px;
-    width: 175px;
+    width: 210px;
     right: 0%; }
     #banner .inner .image .phone img {
       max-height: 230px;
@@ -2150,8 +2164,12 @@ body.homepage #banner {
       font-size: 1.75em; }
   body.homepage #header {
     min-height: 0;
-    padding: 0em 0 8em 0;
+    padding: 0;
     background-image: url("../../assets/img/mob_telekard.jpg"); }
+    body.homepage #header .inner {
+      padding: 0 2em; }
+    body.homepage #header header {
+      margin: 20px 0 0 0; }
     body.homepage #header:before {
       display: none; }
     body.homepage #header h1 {
@@ -2169,6 +2187,13 @@ body.homepage #banner {
       padding-left: 0em; }
     #banner .inner {
       width: 100%; }
+      #banner .inner #pages-container {
+        height: 170px;
+        width: 280px;
+        margin: 0 auto; }
+      #banner .inner .swiper-pagination {
+        display: block;
+        margin-bottom: 10px; }
       #banner .inner .image {
         display: none; }
       #banner .inner .description {
@@ -2215,6 +2240,10 @@ body.homepage #banner {
     width: 100%; }
   #header .inner p {
     font-size: 0.7em; }
+  #banner .inner #pages-container {
+    height: 170px;
+    width: 235px;
+    margin: 0 auto; }
   #banner .inner .image {
     display: none; }
   #banner .inner .description header {
@@ -2225,3 +2254,136 @@ body.homepage #banner {
     padding-left: 10px; }
   body.homepage #header h1 {
     font-size: 1.5em; } }
+
+#pages-container {
+  height: 300px;
+  width: 400px;
+  margin: 4em 0 2em; }
+  #pages-container .swiper-slide {
+    height: 100%;
+    align-items: center;
+    overflow: hidden; }
+    #pages-container .swiper-slide p {
+      text-align: left; }
+
+#pages-container-inner {
+  overflow-x: hidden;
+  height: 100%; }
+
+.links-container {
+  position: relative;
+  padding: 0; }
+
+#magic-line {
+  position: absolute; }
+
+.swiper-pagination {
+  position: relative;
+  display: none; }
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 3px; }
+
+.mobile {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  width: 100%; }
+  .mobile header {
+    background-color: #122043;
+    height: 50px;
+    margin-bottom: 0; }
+  .mobile .logo {
+    padding: 0 0 0 20px; }
+    .mobile .logo img {
+      height: 50px;
+      width: 100px; }
+  .mobile .menuBtn {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 101; }
+    .mobile .menuBtn > span {
+      background-color: #fff;
+      border-radius: 1px;
+      height: 3px;
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: 1px 0 0 -15px;
+      transition: height 100ms; }
+      .mobile .menuBtn > span:after, .mobile .menuBtn > span:before {
+        content: '';
+        background-color: #fff;
+        border-radius: 1px;
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -10px;
+        transition: all 200ms; }
+      .mobile .menuBtn > span:after {
+        top: -7px; }
+      .mobile .menuBtn > span:before {
+        bottom: -7px; }
+    .mobile .menuBtn.act > span {
+      height: 0; }
+      .mobile .menuBtn.act > span:after, .mobile .menuBtn.act > span:before {
+        background-color: white;
+        top: 1px; }
+      .mobile .menuBtn.act > span:after {
+        transform: rotate(45deg); }
+      .mobile .menuBtn.act > span:before {
+        transform: rotate(-45deg); }
+
+/* menu button */
+/* main menu block */
+.mainMenu {
+  background-color: #122043;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: scale(0); }
+  .mainMenu.act {
+    opacity: 1;
+    transform: scale(1); }
+    .mainMenu.act ul li {
+      opacity: 1;
+      transform: translateX(0); }
+  .mainMenu ul {
+    display: table-cell;
+    vertical-align: middle; }
+  .mainMenu li {
+    padding: 8px 0;
+    transition: all 400ms 510ms;
+    opacity: 0; }
+    .mainMenu li:nth-child(odd) {
+      transform: translateX(30%); }
+    .mainMenu li:nth-child(even) {
+      transform: translateX(-30%); }
+    .mainMenu li:last-child {
+      transform: none; }
+  .mainMenu a {
+    color: white;
+    display: inline-block;
+    font-size: 18px; }
+    .mainMenu a.suBtn {
+      color: #fff; }
+
+@media all and (min-width: 1800px) {
+  #pages-container {
+    height: 300px;
+    width: 450px; } }
